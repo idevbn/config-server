@@ -1,7 +1,8 @@
-application:
+spring:
   profiles:
     active: dev
-  name: ead-config-server
+  application:
+    name: ead-config-server
   output:
     ansi:
       enabled: always
